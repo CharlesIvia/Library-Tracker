@@ -1,0 +1,53 @@
+
+html {
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 3rem;
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-book {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 1.5rem;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    flex: content;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.table-title {
+    font-size: 1.5rem;
+    background-color: rgb(237, 77, 77);
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    width: 200px;
+    height: 30px;
+}
+
+.row {
+    text-align: left;
+    align-items: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pgs {
+    text-align: center;
+}
