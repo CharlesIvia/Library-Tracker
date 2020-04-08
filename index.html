@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Library-Tracker</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        
+       <div id="container">
+
+        <div>
+
+            <h1 class="header">Library Tracker</h1>
+            
+        </div>
+
+        <div id="add-book">
+
+            <button class="add-btn" type="button">NEW BOOK</button>
+
+        </div>
+
+        <div class="table">
+
+            <table class="library-list">
+
+                <tr class="table-title">
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Read Status</th>
+                    <th>Action</th>
+                </tr>
+
+                <tr class="add-book-row">
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+
+                    <td>
+                        <input class="readStatus" type="checkbox">
+                    </td>
+
+                    <td>
+                        <button type="button" class="confirm-btn">CONFIRM</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="row">The Great Gatsby</td>
+                    <td class="row">F.Scott Fitzgerald</td>
+                    <td class="pgs">271</td>
+                    <td><input type="checkbox" class="readStatus"></td>
+                    <td> <button type="button" class="del-btn" >DELETE</button></td>
+                </tr>
+
+                <tr>
+                    <td class="row">The River and the Source</td>
+                    <td class="row">Margaret Ogola</td>
+                    <td class="pgs">378</td>
+                    <td><input type="checkbox" class="readStatus"></td>
+                    <td> <button type="button" class="del-btn" >DELETE</button></td>
+                </tr>
+
+                <tr>
+                    <td class="row">Eloquent JavaScript</td>
+                    <td class="row">Marijn Haverbeke</td>
+                    <td class="pgs">435</td>
+                    <td><input type="checkbox" class="readStatus"></td>
+                    <td> <button type="button" class="del-btn" >DELETE</button></td>
+                </tr>
+
+            </table>
+
+        </div>
+
+       </div>
+
+       <script type="text/javascript" src="script.js"></script>
+
+    </body>
+
+</html>
