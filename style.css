@@ -3,6 +3,7 @@ body {
   }
     h1{
         font-size: 2.5rem;
+        font-family: 'Raleway',sans-serif;
         display: flex;
         margin-top: 90px;
         justify-content: center;
@@ -16,6 +17,7 @@ body {
         margin-bottom: 20px;
         height: 1.5rem;
         align-items: center;
+        font-family: 'Raleway',sans-serif;
     }
 
   .bookForm {
@@ -25,8 +27,20 @@ body {
     justify-content: space-evenly;
     width: 80%;
     margin: auto;
+    margin-bottom: 10px;
     font-size: 16px;
+    font-family: 'Raleway',sans-serif;
     background-color: rgb(128, 126, 126);
+  }
+
+  .showBookForm {
+    font-family: 'Raleway',sans-serif;
+  }
+
+  .showBookForm:hover {
+    background-color: rgb(237, 77, 77);
+    transform: scale(1.1);
+    border-color: rgb(237, 77, 77);
   }
   .warning {
     display: none;
@@ -62,4 +76,12 @@ body {
     margin: auto;
     background-color: rgb(228, 238, 233);
     font-size: 18px;
+    font-family: 'Raleway', sans-serif;
   }
+
+  /*.addBookBtn {
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgb(237, 77, 77);
+    border: none;
+  }*/
