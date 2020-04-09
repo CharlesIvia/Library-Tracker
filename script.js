@@ -52,9 +52,11 @@ function render() {
           if (element[key]) {
             readButton.value = 'Read';
             readButton.setAttribute('class', 'bookRead');
+            readButton.setAttribute('style', 'font-family:Raleway,sans-serif');
           } else {
             readButton.value = 'Not Read';
             readButton.setAttribute('class', 'bookUnRead');
+            readButton.setAttribute('style', 'font-family:Raleway,sans-serif');
           }
           newData.appendChild(readButton);
           newRow.appendChild(newData);
@@ -128,19 +130,30 @@ function render() {
       myLibrary[bookIndex].read = false;
       button.setAttribute('class', 'Not Read');
       button.setAttribute('value', 'Not Read');
+      button.setAttribute('style', 'font-family:Raleway,sans-serif');
     } else {
       myLibrary[bookIndex].read = true;
       button.setAttribute('class', 'Read');
       button.setAttribute('value', 'Read');
+      button.setAttribute('style', 'font-family:Raleway,sans-serif');
     }
   }
   
   function showAddBook() {
     if (addForm.style.display == 'flex') {
       addForm.setAttribute('style', 'display: none');
+      //addForm.setAttribute('style', 'font-family:Raleway,sans-serif');
     } else {
       addForm.setAttribute('style', 'display: flex', 'margin-top: 90px');
+      //addForm.setAttribute('style', 'font-family:Raleway,sans-serif');
     }
   }
   
- 
+  function hasLetters(string) {
+    var regex = /\D/g;
+    return regex.test(string);
+  }
+  function hasNumbers(string) {
+    var regex = /\d/g;
+    return regex.test(string);
+  }
