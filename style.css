@@ -1,53 +1,65 @@
+body {
+    background-color: rgb(220, 225, 230);
+  }
+    h1{
+        font-size: 2.5rem;
+        display: flex;
+        margin-top: 90px;
+        justify-content: center;
+        align-items: center;
+    }
 
-html {
-    background-color: whitesmoke;
-}
-h1{
-    font-size: 3rem;
-    display: flex;
-    margin-top: 90px;
-    justify-content: center;
-    align-items: center;
-}
+    .newBookBtn {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        height: 1.5rem;
+        align-items: center;
+    }
 
-#add-book {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    height: 1.5rem;
-    align-items: center;
-}
-
-table {
-    border-collapse: collapse;
-    flex: content;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-}
-
-.table-title {
-    font-size: 1.5rem;
-    background-color: rgb(237, 77, 77);
-}
-
-td, th {
-    border: 1px solid black;
-    text-align: left;
-    padding: 8px;
-    width: 200px;
-    height: 30px;
-}
-
-.row {
-    text-align: left;
-    align-items: center;
+  .bookForm {
+    position: static;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.pgs {
+    background-color: rgb(128, 126, 126);
+  }
+  .warning {
+    display: none;
+    width: 80%;
+    margin: auto;
     text-align: center;
-}
+    color: darkred;
+    background-color: rgb(128, 126, 126);
+  }
+  form {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .addBookBTN {
+    width: 10%;
+  }
+  select {
+    width: 10%;
+  }
+  table,th,td {
+    border: 1px solid rgb(24, 24, 22);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+  }
+  th {
+    background-color: rgb(237, 77, 77);
+  }
+  table {
+    margin-top: 50px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(228, 238, 233);
+    font-size: 18px;
+  }
